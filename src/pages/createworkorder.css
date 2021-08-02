@@ -1,0 +1,55 @@
+.createworkorder-header{
+    height:40px;
+    width:100%;
+    background-color: white;
+    margin-bottom:20px;
+    border-bottom:solid 1px rgb(179, 179, 179);
+    padding-left:20px;
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.createworkorder-container{
+    background-color: white;
+    margin-right:20px;
+    margin-left:20px;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+@media screen and (max-width:480px) {
+    #page-content{
+        overflow:hidden !important;
+    }
+    .createworkorder-container{
+        background-color: white;
+        margin-right:10px;
+        margin-left:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    #basic > div:nth-child(1){
+        padding:20px;
+        margin-bottom:0;
+    }
+    #basic > div:nth-child(2){
+        padding:20px;
+    }
+    #basic > div:nth-child(1) > div.ant-col.ant-col-4.ant-form-item-label > label,
+    #basic > div:nth-child(2) > div.ant-col.ant-col-4.ant-form-item-label > label{
+        font-size:larger;
+    }
+    #basic > div:nth-child(3) > div{
+        padding-right:20px;
+    }
+    #basic_description{
+        height:40px;
+    }
+    #basic > div:nth-child(3) > div{
+        margin-left:0;
+        padding-left:20px;
+    }
+    #basic > div:nth-child(3) > div > div.ant-form-item-extra{
+        display:none;
+    }
+}

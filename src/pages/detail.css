@@ -1,0 +1,96 @@
+.detail-header{
+    height:40px;
+    width:100%;
+    background-color: white;
+    margin-bottom:20px;
+    border-bottom:solid 1px rgb(179, 179, 179);
+    padding-left:20px;
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+}
+.detail-container{
+    margin-left: 20px;
+    margin-right:20px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding:10px;
+}
+.detail-info{
+    display:flex;
+    align-items: center;
+    height:60px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.detail-description{
+    height:100px;
+}
+.detail-property-name{
+    color:rgb(126, 126, 126);
+}
+.detail-property-content{
+    font-weight: bold;
+}
+.detail-history-block{
+    border:rgb(238, 238, 238) 1px solid;
+    padding:10px;
+    margin-top:10px;
+    display:flex;
+    
+    justify-content:space-between;
+}
+.detail-history-icon{
+    width:10%;
+    height:90%;
+}
+.detail-history-icon img{
+    width:100%;
+}
+.detail-history-info{
+    
+    width:87%;
+}
+.detail-history-info-header{
+    
+    margin-bottom:3px;
+    display:flex;
+    justify-content: space-between;
+}
+.detail-history-content{
+    color:black;
+    margin-bottom:20px;
+}
+#basic > div:nth-child(3) > div{
+    margin-bottom:30px;
+}
+#basic > div:nth-child(2){
+    margin-bottom:10px;
+}
+@media screen and (max-width:480px) {
+    .detail-container{
+        margin-left: 10px;
+        margin-right:10px;
+        background-color: white;
+        margin-bottom: 10px;
+        padding:10px;
+    }
+    #basic > div:nth-child(2) > div > div.ant-form-item-extra{
+        display:none;
+    }
+    #basic > div:nth-child(1){
+        padding:0 !important;
+        margin:10px !important;
+    }
+    #basic > div:nth-child(2){
+        padding:0 0 10px 10px !important;
+        margin-bottom:0 !important;
+    }
+    #basic > div:nth-child(3) > div{
+        padding-left:10px !important;
+        margin-bottom:30px;
+    }
+    #basic > div:nth-child(2) > div{
+        margin-left:0;
+    }
+}
